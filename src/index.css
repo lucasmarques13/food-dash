@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Dancing+Script:wght@700&display=swap');
+
+:root {
+  --purple-dark: #3B0E6B;
+  --purple-medium: #7B3FB5;
+  --purple-light: #C4A8DF;
+  --purple-pale: #E8D5F5;
+  --purple-card: #D6BDEF;
+  --purple-accent: #6B21A8;
+  --purple-btn: #5B1A99;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.font-cursive {
+  font-family: 'Dancing Script', cursive;
+}
